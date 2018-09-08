@@ -50,8 +50,9 @@ int isKaprekar(int n) {
     //the sum of the two parts is equal to n, then it is
     if(second > 0 && n = first + second) {
       return 1;
-    }
-  }
-  return 0;
+    //added a else statement   
+    }else{
   
+    return 0;
+    }
 }
